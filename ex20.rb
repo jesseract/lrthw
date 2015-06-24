@@ -22,7 +22,7 @@ puts "Now let's rewind, kind of like a tape."
 
 rewind(current_file)
 
-puts "Let's print three lines:"
+puts "let's print three lines:"
 
 current_line = 1
 print_a_line(current_line, current_file)
