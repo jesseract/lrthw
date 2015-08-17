@@ -5,7 +5,7 @@ def gold_room
   choice = $stdin.gets.chomp
 
   #this line has a bug, so fix it
-  if (choice.include? "0") || (choice.include? "1")
+  if choice.include?("0") || choice.include?("1") || choice.include?("2") || choice.include?("3") || choice.include?("4") || choice.include?("5") || choice.include?("6") || choice.include?("7") || choice.include?("8") || choice.include?("9")
     how_much = choice.to_i
   else
     dead("Man, learn to type a number.")

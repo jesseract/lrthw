@@ -53,7 +53,7 @@ module Ex26
   nor comprehend passion from intuition
   and requires an explanation
   \n\t\twhere there is none.
-  END
+END
 
   puts "--------------"
   puts poem
